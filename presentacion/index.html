@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Paciente</title>
+</head>
+<body>
+
+<form action="../Logica/api/request.php" method="post">
+
+    <h2>Formulario paciente</h2>
+
+    <label>Nombre</label>
+    <input type="text" name="nombre" required>
+
+    <label>Fecha de nacimiento</label>
+    <input type="date" name="fecha_nac">
+
+    <label>Género</label>
+    <select name="genero">
+        <option value="">Seleccione</option>
+        <option value="M">Masculino</option>
+        <option value="F">Femenino</option>
+    </select>
+
+    <h2>Visita</h2>
+
+    <label>Fecha de visita</label>
+    <input type="date" name="fecha_visita" required>
+
+    <label>Médico</label>
+    <input type="text" name="nombreMedico" required>
+
+    <label>Medicamentos</label>
+    <select name="generoMedicamentos">
+        <option value="Si">Sí</option>
+        <option value="No">No</option>
+    </select>
+
+    <button type="submit">Guardar</button>
+
+</form>
+</body>
+</html>

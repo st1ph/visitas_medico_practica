@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Royber",
+        "fecha_nac": "2000-03-25",
+        "genero": "M",
+        "fecha_visita": "2026-06-23",
+        "nombreMedico": "Juan manizales",
+        "generoMedicamentos": "Si"
+    },
+    {
+        "nombre": "gustavo",
+        "fecha_nac": "2000-05-14",
+        "genero": "M",
+        "fecha_visita": "2026-05-02",
+        "nombreMedico": "Fernando Lopez",
+        "generoMedicamentos": "Si"
+    }
+]
